@@ -63,4 +63,8 @@ and test_preds_rs as the predicted value on test data by the randomForestRegress
 But the test data has an extra column("SalesID") so I dropped it to just include the target
 column
 Now using the model trained on 10000 samples we achieved an score of 86%, so then I used all of our data to train the model on
-By doing 
+By doing so I acheived about 90% accuracy and rsquare score on my validation data set and r square score of about 74% on my test dataset
+# Woohooo!!!!
+
+Further I also saw results from KNN model and linear regression model which were not very good compared to the random forest model.
+Thus we are done...
